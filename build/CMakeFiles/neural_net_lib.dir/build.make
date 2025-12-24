@@ -83,17 +83,33 @@ CMakeFiles/neural_net_lib.dir/src/tensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neural_net_lib.dir/src/tensor.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aditya/neural-net/src/tensor.cpp -o CMakeFiles/neural_net_lib.dir/src/tensor.cpp.s
 
+CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o: CMakeFiles/neural_net_lib.dir/flags.make
+CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o: /home/aditya/neural-net/src/layers/dense.cpp
+CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o: CMakeFiles/neural_net_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aditya/neural-net/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o -MF CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o.d -o CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o -c /home/aditya/neural-net/src/layers/dense.cpp
+
+CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aditya/neural-net/src/layers/dense.cpp > CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.i
+
+CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aditya/neural-net/src/layers/dense.cpp -o CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.s
+
 # Object files for target neural_net_lib
 neural_net_lib_OBJECTS = \
-"CMakeFiles/neural_net_lib.dir/src/tensor.cpp.o"
+"CMakeFiles/neural_net_lib.dir/src/tensor.cpp.o" \
+"CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o"
 
 # External object files for target neural_net_lib
 neural_net_lib_EXTERNAL_OBJECTS =
 
 libneural_net_lib.a: CMakeFiles/neural_net_lib.dir/src/tensor.cpp.o
+libneural_net_lib.a: CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o
 libneural_net_lib.a: CMakeFiles/neural_net_lib.dir/build.make
 libneural_net_lib.a: CMakeFiles/neural_net_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/aditya/neural-net/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libneural_net_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/aditya/neural-net/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libneural_net_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/neural_net_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/neural_net_lib.dir/link.txt --verbose=$(VERBOSE)
 

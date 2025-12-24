@@ -1,5 +1,7 @@
-CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o: \
- /home/aditya/neural-net/tests/test_tensor.cpp /usr/include/stdc-predef.h \
+CMakeFiles/run_tests.dir/tests/test_layers.cpp.o: \
+ /home/aditya/neural-net/tests/test_layers.cpp /usr/include/stdc-predef.h \
+ /home/aditya/neural-net/tests/../include/dense.h \
+ /home/aditya/neural-net/tests/../include/layer.h \
  /home/aditya/neural-net/tests/../include/tensor.h \
  /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -401,4 +403,6 @@ CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
- /usr/include/c++/13/iostream
+ /usr/include/c++/13/iostream \
+ /home/aditya/neural-net/include/activation.h \
+ /home/aditya/neural-net/include/loss_functions.h

@@ -152,6 +152,30 @@ run_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
 .PHONY : run_tests/fast
 
+src/layers/dense.o: src/layers/dense.cpp.o
+.PHONY : src/layers/dense.o
+
+# target to build an object file
+src/layers/dense.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neural_net_lib.dir/build.make CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o
+.PHONY : src/layers/dense.cpp.o
+
+src/layers/dense.i: src/layers/dense.cpp.i
+.PHONY : src/layers/dense.i
+
+# target to preprocess a source file
+src/layers/dense.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neural_net_lib.dir/build.make CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.i
+.PHONY : src/layers/dense.cpp.i
+
+src/layers/dense.s: src/layers/dense.cpp.s
+.PHONY : src/layers/dense.s
+
+# target to generate assembly for a file
+src/layers/dense.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/neural_net_lib.dir/build.make CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.s
+.PHONY : src/layers/dense.cpp.s
+
 src/tensor.o: src/tensor.cpp.o
 .PHONY : src/tensor.o
 
@@ -176,29 +200,29 @@ src/tensor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/neural_net_lib.dir/build.make CMakeFiles/neural_net_lib.dir/src/tensor.cpp.s
 .PHONY : src/tensor.cpp.s
 
-tests/test_tensor.o: tests/test_tensor.cpp.o
-.PHONY : tests/test_tensor.o
+tests/test_layers.o: tests/test_layers.cpp.o
+.PHONY : tests/test_layers.o
 
 # target to build an object file
-tests/test_tensor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o
-.PHONY : tests/test_tensor.cpp.o
+tests/test_layers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/tests/test_layers.cpp.o
+.PHONY : tests/test_layers.cpp.o
 
-tests/test_tensor.i: tests/test_tensor.cpp.i
-.PHONY : tests/test_tensor.i
+tests/test_layers.i: tests/test_layers.cpp.i
+.PHONY : tests/test_layers.i
 
 # target to preprocess a source file
-tests/test_tensor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/tests/test_tensor.cpp.i
-.PHONY : tests/test_tensor.cpp.i
+tests/test_layers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/tests/test_layers.cpp.i
+.PHONY : tests/test_layers.cpp.i
 
-tests/test_tensor.s: tests/test_tensor.cpp.s
-.PHONY : tests/test_tensor.s
+tests/test_layers.s: tests/test_layers.cpp.s
+.PHONY : tests/test_layers.s
 
 # target to generate assembly for a file
-tests/test_tensor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/tests/test_tensor.cpp.s
-.PHONY : tests/test_tensor.cpp.s
+tests/test_layers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/tests/test_layers.cpp.s
+.PHONY : tests/test_layers.cpp.s
 
 # Help Target
 help:
@@ -211,12 +235,15 @@ help:
 	@echo "... test"
 	@echo "... neural_net_lib"
 	@echo "... run_tests"
+	@echo "... src/layers/dense.o"
+	@echo "... src/layers/dense.i"
+	@echo "... src/layers/dense.s"
 	@echo "... src/tensor.o"
 	@echo "... src/tensor.i"
 	@echo "... src/tensor.s"
-	@echo "... tests/test_tensor.o"
-	@echo "... tests/test_tensor.i"
-	@echo "... tests/test_tensor.s"
+	@echo "... tests/test_layers.o"
+	@echo "... tests/test_layers.i"
+	@echo "... tests/test_layers.s"
 .PHONY : help
 
 

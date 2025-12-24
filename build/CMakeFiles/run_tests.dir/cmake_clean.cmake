@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o"
-  "CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o.d"
+  "CMakeFiles/run_tests.dir/tests/test_layers.cpp.o"
+  "CMakeFiles/run_tests.dir/tests/test_layers.cpp.o.d"
   "run_tests"
   "run_tests.pdb"
 )

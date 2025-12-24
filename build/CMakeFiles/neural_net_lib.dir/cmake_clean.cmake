@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o"
+  "CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o.d"
   "CMakeFiles/neural_net_lib.dir/src/tensor.cpp.o"
   "CMakeFiles/neural_net_lib.dir/src/tensor.cpp.o.d"
   "libneural_net_lib.a"

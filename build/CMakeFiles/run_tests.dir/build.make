@@ -69,28 +69,28 @@ include CMakeFiles/run_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/run_tests.dir/flags.make
 
-CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o: CMakeFiles/run_tests.dir/flags.make
-CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o: /home/aditya/neural-net/tests/test_tensor.cpp
-CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o: CMakeFiles/run_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aditya/neural-net/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o -MF CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o.d -o CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o -c /home/aditya/neural-net/tests/test_tensor.cpp
+CMakeFiles/run_tests.dir/tests/test_layers.cpp.o: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_layers.cpp.o: /home/aditya/neural-net/tests/test_layers.cpp
+CMakeFiles/run_tests.dir/tests/test_layers.cpp.o: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aditya/neural-net/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run_tests.dir/tests/test_layers.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_layers.cpp.o -MF CMakeFiles/run_tests.dir/tests/test_layers.cpp.o.d -o CMakeFiles/run_tests.dir/tests/test_layers.cpp.o -c /home/aditya/neural-net/tests/test_layers.cpp
 
-CMakeFiles/run_tests.dir/tests/test_tensor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_tensor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aditya/neural-net/tests/test_tensor.cpp > CMakeFiles/run_tests.dir/tests/test_tensor.cpp.i
+CMakeFiles/run_tests.dir/tests/test_layers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_layers.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aditya/neural-net/tests/test_layers.cpp > CMakeFiles/run_tests.dir/tests/test_layers.cpp.i
 
-CMakeFiles/run_tests.dir/tests/test_tensor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_tensor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aditya/neural-net/tests/test_tensor.cpp -o CMakeFiles/run_tests.dir/tests/test_tensor.cpp.s
+CMakeFiles/run_tests.dir/tests/test_layers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_layers.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aditya/neural-net/tests/test_layers.cpp -o CMakeFiles/run_tests.dir/tests/test_layers.cpp.s
 
 # Object files for target run_tests
 run_tests_OBJECTS = \
-"CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o"
+"CMakeFiles/run_tests.dir/tests/test_layers.cpp.o"
 
 # External object files for target run_tests
 run_tests_EXTERNAL_OBJECTS =
 
-run_tests: CMakeFiles/run_tests.dir/tests/test_tensor.cpp.o
+run_tests: CMakeFiles/run_tests.dir/tests/test_layers.cpp.o
 run_tests: CMakeFiles/run_tests.dir/build.make
 run_tests: libneural_net_lib.a
 run_tests: CMakeFiles/run_tests.dir/link.txt

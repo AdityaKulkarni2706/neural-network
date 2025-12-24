@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/aditya/neural-net/src/layers/dense.cpp" "CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o" "gcc" "CMakeFiles/neural_net_lib.dir/src/layers/dense.cpp.o.d"
   "/home/aditya/neural-net/src/tensor.cpp" "CMakeFiles/neural_net_lib.dir/src/tensor.cpp.o" "gcc" "CMakeFiles/neural_net_lib.dir/src/tensor.cpp.o.d"
   )
 
