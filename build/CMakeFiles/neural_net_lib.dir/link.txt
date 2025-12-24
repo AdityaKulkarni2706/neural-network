@@ -1,0 +1,2 @@
+/usr/bin/ar qc libneural_net_lib.a CMakeFiles/neural_net_lib.dir/src/tensor.cpp.o
+/usr/bin/ranlib libneural_net_lib.a

@@ -1,0 +1,5 @@
+/home/aditya/neural-net/build/CMakeFiles/neural_net_lib.dir
+/home/aditya/neural-net/build/CMakeFiles/run_tests.dir
+/home/aditya/neural-net/build/CMakeFiles/test.dir
+/home/aditya/neural-net/build/CMakeFiles/edit_cache.dir
+/home/aditya/neural-net/build/CMakeFiles/rebuild_cache.dir
